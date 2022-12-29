@@ -1,6 +1,6 @@
 (function(undefined) {
     var loadingSubscribablesCache = {}, // Tracks component loads that are currently in flight
-        loadedDefinitionsCache = {};    // Tracks component loads that have already completed
+        loadedDefinitionsCache = {};    // Tracks component loads that have already completed//
 
     ko.components = {
         get: function(componentName, callback) {
